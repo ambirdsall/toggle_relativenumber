@@ -6,4 +6,4 @@ function! RelativeNumberToggle()
 	endif
 endfunc
 
-map <C-n> :call RelativeNumberToggle()<cr>
+noremap <leader>nu :call RelativeNumberToggle()<cr>
